@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node app.js",
     "dev": "node app.js",
-    "build": "node build.js",
-    "build:prod": "NODE_ENV=production node build.js",
+    "build": "node app.js",
+    "build:prod": "NODE_ENV=production node app.js",
     "serve": "node dist/app.js",
     "clean": "rm -rf dist",
     "test": "echo 'No tests specified yet'"
